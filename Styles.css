@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 380px;
+    border-radius: 6px;
+}
+
+.Post {
+    background-color: white;
+    border-radius: 6px;
+}
+
+    .PostHeader{
+        display: flex;
+        justify-content: space-between;
+        padding: 6px;
+    }
+    .HeaderImage{
+        display: flex;
+        padding: 5px;
+    } 
+    .HeaderText {
+        margin-left: 10px;
+    }
+
+    .HeaderText >p {
+        margin: 0;
+    }
+
+p {
+  font-size: small;  
+}
+i {
+    font-size:  x-large;
+}
+
+.PostBody {
+    padding: 15px;
+}
+.PostIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Interactions >i:first-child{
+    color: red;
+}
